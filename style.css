@@ -1,0 +1,327 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.anker {
+    color: black;
+}
+
+/* ---------------login-page---------- */
+.login-body {
+    background-color: black;
+}
+
+.login-page {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.login-intro {
+    text-align: center;
+}
+
+.login-intro h1 {
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+.login-intro h4 {
+    font-weight: 900;
+}
+
+.login-intro p {
+    color: #272626;
+    font-weight: 500;
+}
+
+.login-intro a {
+    color: red;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.login-inputs input {
+    padding: 10px 15px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid grey;
+    width: 100%;
+}
+
+.login-inputs button {
+    width: 100%;
+    background-color: rgb(78, 153, 2);
+    color: white;
+    letter-spacing: 0.2px;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 40px;
+    display: inline-block;
+    background-image: -webkit-linear-gradient(30deg, rgb(78, 153, 2) 50%, transparent 50%);
+    background-image: linear-gradient(30deg, rgb(78, 153, 2) 50%, transparent 50%);
+    background-size: 300%;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out;
+    border: none;
+    border-radius: 10px;
+}
+
+.login-inputs button:hover {
+    background-color: black;
+    color: white;
+    background-position: 100%;
+}
+
+#cross-icon {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    display: inline-grid;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#username-p,
+#password-p {
+    color: red;
+}
+
+
+/* header */
+header {
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.160784);
+    ;
+}
+
+.header-nav .nav-item {
+    display: flex;
+    justify-content: center;
+}
+
+.header-nav .nav-item a {
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 19px;
+    border-top: 5px solid #000;
+    width: 170px;
+    position: relative;
+    padding-top: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-nav .nav-item a:hover {
+    color: #b00020 !important;
+    border-color: #b00020;
+}
+
+.header-nav .nav-item a:active {
+    color: #b00020 !important;
+    border-color: #b00020;
+}
+
+.header-bottom-a1 {
+    color: #b00020;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: .7px;
+}
+
+.header-bottom-a1:hover {
+    text-decoration: underline;
+}
+
+.header-bottom span {
+    color: #b00020;
+    padding: 0px 4px;
+    font-weight: bold;
+}
+
+#search-1 {
+    border: 0;
+    outline: 0;
+    width: 16%;
+    margin-left: 10%;
+    border-bottom: 1px solid grey;
+}
+
+#search-1::placeholder {
+    font-size: small;
+    color: grey;
+    letter-spacing: 1px;
+}
+
+.header-bottom iconify-icon {
+    vertical-align: middle;
+}
+
+.btn-free-trial {
+    background: none;
+    border: 0;
+    color: #000;
+    font-weight: bold;
+    width: max-content;
+    height: auto;
+    padding: 0;
+    line-height: normal;
+    position: relative;
+}
+
+.btn-free-trial:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.login-button {
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #b00020;
+    color: #b00020;
+    font-size: 16px;
+    transition: ease-out .3s;
+    text-decoration: none;
+    padding: 10px 50px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+
+}
+
+.login-button:hover {
+    color: #fff;
+    transition: ease-out .3s;
+    box-shadow: inset 200px 0 0 0 #b00020
+}
+
+
+/* cards-section */
+.cards-section {
+    margin-top: 5%;
+}
+
+.box-title {
+    position: relative;
+    height: 115px;
+}
+
+.box-title::before {
+    content: "";
+    width: 100%;
+    height: 90px;
+    border: 1px solid rgba(0, 0, 0, 0.1450980392);
+    border-bottom: none;
+    position: absolute;
+    top: 23px;
+    z-index: -1;
+}
+
+.black-text {
+    text-align: center;
+    font-size: 38px;
+    color: #000;
+    margin: 0 auto 10px;
+    background: #fff;
+    padding: 0 20px;
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    width: max-content;
+    max-width: 90%;
+}
+
+.sub-title {
+    display: block;
+    color: #b00020;
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+}
+
+.premium {
+    padding-left: 28px;
+    position: relative;
+    margin: 15px auto;
+    text-align: center;
+    width: max-content;
+}
+
+.premium a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+
+#card-text {
+    padding: 20px;
+}
+
+.card {
+    margin: 15px 0px;
+    height: 30rem;
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+
+#card-title:hover {
+    text-decoration: underline;
+}
+
+#card-date {
+    color: grey;
+}
+.card a{
+    text-decoration: none;
+    color: black;
+}
+.pagebuttons{
+   padding: 5px 20px;
+   margin-right: 5px;
+}
+/* media queries */
+@media (max-width:992px) {
+    #search-1 {
+        width: auto;
+        margin-top: 10px;
+    }
+
+    .header-nav .nav-item {
+        border-top: 5px solid #000;
+        padding-bottom: 10px;
+    }
+
+    .header-nav .nav-item:hover {
+        border-color: #b00020;
+
+    }
+
+    .header-nav .nav-item a {
+        border: none;
+    }
+
+}
+
+@media (max-width:576px) {
+    .login-button {
+        padding: 10px 10px;
+    }
+
+    #search-1 {
+        width: 50% !important;
+    }
+
+    .search-box {
+        display: block;
+    }
+}

@@ -75,8 +75,8 @@ updateButtonText();
 
 
 let linkdata = "https://newsapi.org/v2/everything?q="
-let apidata = "1d3a0eefa97b499d8fbc4ee93eeb40b7"
-// let apidata = "3382e3a95064477897b8ab2cfabc0160"
+// let apidata = "1d3a0eefa97b499d8fbc4ee93eeb40b7"
+let apidata = "3382e3a95064477897b8ab2cfabc0160"
 
 // Set the number of items to display per page
 var itemsPerPage = 12;
@@ -151,7 +151,6 @@ const asyncronus = async (item) => {
 function generatePagination(articals) {
 
    var totalPages = Math.ceil(articals.length / itemsPerPage);
-   console.log(totalPages)
    var paginationHtml = '';
 
    // Previous button
@@ -170,7 +169,6 @@ function generatePagination(articals) {
    }
 
    const elm =document.getElementById('pagination').innerHTML = paginationHtml;
-   console.log(elm)
 }
 
 
@@ -187,6 +185,5 @@ function topic(item) {
 let searchicon = document.getElementById("search-icon");
 let searchvalue = document.getElementById("search-1");
 function search() {
-   asyncronus(item = searchvalue.value)
+   asyncronus(document.getElementById("search-1").value)
 }
-searchicon.addEventListener("click", search)
